@@ -1,0 +1,48 @@
+.. _wsl-install:
+
+Installing Windows Subsystem for Linux
+======================================
+
+TODO:
+
+- Do we want to give some minimum Windows 11 version?
+
+
+These instructions assume that you are using Windows 11.
+
+The Windows Subsystem for Linux (WSL) is a feature on Windows that
+allows users to run a Linux environment without the need for a virtual
+machine or a dual boot. We recommend that you install WSL on your
+local machine so that you may have your own working environment for
+this and future classes (many of which will expect you to have access
+to a Linux system).
+
+To install WSL, open Powershell in administrator mode:
+
+.. figure:: wsl-img/wsl-1.png
+	    :scale: 60%
+
+and type the following command::
+
+   wsl --install
+
+.. figure:: wsl-img/wsl-2.png
+	    :scale: 60%
+
+After running the command, make sure to restart your machine.
+
+To run WSL, open Powershell and run the following command::
+
+	wsl
+
+Alternatively, you may open WSL by looking up the name of the Linux distribution used by WSL (Ubuntu) on the Windows home search.
+
+.. figure:: wsl-img/wsl-2.png
+	    :scale: 60%
+
+The first time you run WSL, a terminal window will open and you will
+be asked to wait for files to decompress and be stored on your
+machine. All future launches should take less than a second
+
+   
+		    

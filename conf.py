@@ -69,7 +69,7 @@ html_js_files = [
     'analytics.js',
 ]
 
-html_title = 'UChicago CS Student Resource Guide'
+html_title = 'CAPP Camp Software Setup'
 
 extensions.append("sphinx.ext.todo")
 
