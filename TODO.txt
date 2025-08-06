@@ -1,0 +1,23 @@
+Day 1:
+
+  Linux Slides
+    - Slides 29 and 32: replace {} with <> as the placeholder
+    - Slide 19 replace Windows entry with the appropriate entry for WSL
+
+  Day 1 setup:
+    - Add instructions for how to setup the code command for VSCode on macOS and for WSL.
+    - Make the zip file, figure out where to put it, and update the instructions for picking it up.
+
+  Question: should we move the description of the work for the Linux practice session from the README into
+    the CAPP Camp setup documentation or should we just include a PDF?
+
+Day 2:
+  Day 2 setup:
+    - Create the classroom and update URL below
+
+  Question: do we want to one or more pushes to this lab and, possibly,
+  have them look at the repo on Github before and after the push?
+
+
+
+
