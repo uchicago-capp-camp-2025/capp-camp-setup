@@ -1,3 +1,5 @@
+.. _terminal-app:
+
 Linux-style Terminal Applications
 =================================
 
@@ -13,6 +15,9 @@ terminal.  Here are the OS-specific instructions:
 
 
 - **Windows** If you are using a Windows machine, you need to install the :ref:`Windows Subsystem for Linux <wsl-install>` and then open the ``wsl``   application.  
+
+.. figure:: ssh-img/macos-terminal.png
+	    :scale: 40%	    
 
 
 - **MacOS**: You can find instructions to open or quit the Terminal application on macOS `here

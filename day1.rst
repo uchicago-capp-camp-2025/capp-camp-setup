@@ -2,19 +2,16 @@ CAPP Camp: Day 1
 ================
 
 This page contains instructions for setting up the software that you
-will use during Day 1 of CAPP Camp.
+will use during Day 1 of CAPP Camp.  The first day will focus on
+learning how to use a Linux-style terminal application/command-line
+and the basics of a commonly-used code editor, named Visual Studio Code.
 
-- **Windows Subsystem for Linux** - This section is for Windows users only.  It explains how to install the Windows Subsystem for Linux.
-- **Terminal Application on MacOS**  This section is for MaxOS users only.  It explains how to open a terminal application on MacOS.
-- **Visual Studio Code**: Instructions on how to install Visual Studio Code, a popular code editor.
+Please work through the instructions in the following documents:
 
-This document contains customized and updated versions of the material
-in the `UChicago CS Student Resource Guide
-<https://uchicago-cs.github.io/student-resource-guide/>`__ and
-material from Borja Sotomayor's course setup instructions.  Many
-people have contributed the CS Student Resource Guide over the years,
-including Borja Sotomayor, James Turk, Anne Rogers, and numerous other
-instructors and teaching assistants.
+- :ref:`terminal-app`
+- :ref:`vscode-about`
+- :ref:`day1-materials`  
+
 
 .. toctree::
    :maxdepth: 1
@@ -27,6 +24,13 @@ instructors and teaching assistants.
    :hidden:
 
    vscode/vscode.rst
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   day1-materials.rst
    
+      
    
 

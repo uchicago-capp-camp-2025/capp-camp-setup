@@ -44,5 +44,15 @@ The first time you run WSL, a terminal window will open and you will
 be asked to wait for files to decompress and be stored on your
 machine. All future launches should take less than a second
 
+If you’re still unsure of whether you’re running in the correct terminal, try running the following command:
+
+	which python3
+
+It should print something like this:
+
+	/usr/bin/python3
+
+If you see this, you are running inside a WSL Linux terminal. This is where you should run any commands related to your coursework.
+
    
 		    
