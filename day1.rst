@@ -1,5 +1,7 @@
-CAPP Camp: Day 1
-================
+.. _day1-setup:
+
+CAPP Camp: Day 1 Setup
+======================
 
 This page contains instructions for setting up the software that you
 will use during Day 1 of CAPP Camp.  The first day will focus on
