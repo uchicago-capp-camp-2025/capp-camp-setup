@@ -9,21 +9,15 @@ TODO:
 - Write the section on turning off Copilot integration.
 
 In this page, you will find instructions on how to set some common
-configuration options. Some of these changes will make it easier to
-conform to the Python style guide that will be used in many of your CS
-courses.  Others will make it less likely for you to run into
-difficult diagnose Git problems and help ensure that you are following
-your instructor's rules on use of Generative AI.
+configuration options for VS Code. Some of these changes will make it
+easier to conform to the `Python style guide
+<https://uchicago-cs.github.io/student-resource-guide/style-guide/python.html>`__
+that will be used in many of your CS courses.  Others will make it
+less likely for you to run into difficult-to-diagnose Git problems and
+help ensure that you are following your instructor's rules on use of
+Generative AI.
 
-This work should be done in using VS Code connected to your assigned
-server.  If you do not have a VS Code window open and connected to
-your assigned server, please open one now.  Also, if you do not
-alreadt have one open, open a terminal window within VS Code.  If you
-are setup properly, your VS Code window will look something like this
-one (except that you'll see your CNetID instead of ``ar0r`` and your
-assigned server instead of the server assigned to ``ar0r``.
-
-.. figure:: code-img/connect-10.png
+To get started, open VS Code.
 
 .. _vscode-install-extensions:
 
@@ -31,9 +25,11 @@ Install Language Extensions for VS Code
 ---------------------------------------
 
 Your first task in this section is to install the VS Code extension
-for Python.  As when you installed the SSH extension in the previous
-section, click on the extensions icon (alternatively, you can press
-Ctrl-Shift-X, or Command-Shift-X on macOS).
+for Python.  In the left sidebar of VS Code, there is an icon
+consisting of four squares, with one square separated off from the
+other three. This is the icon for VSCode extensions. Click it
+(alternatively, you can press Ctrl-Shift-X, or Command-Shift-X on
+macOS).
 
 .. figure:: code-img/install-ext-1.png
 
@@ -45,16 +41,21 @@ appears, make sure the name and publisher match exactly, then click on
 it.  That will show a pane with information about the extension. Click
 *Install*.
 
-In our case, you want to search for the Python language extension with Microsoft as the publisher.
+In our case, you want to search for the Python language extension with
+Microsoft as the publisher.
 
 .. figure:: code-img/install-ext-4.png
-
 
 
 Space Indentation
 -----------------
 
-Your editor should be set such that tabs are equivalent to four spaces. In this section, we explain how to configure indentation in VS Code. First, set the tab size to four spaces. In the Code menu, Go to *Settings...*, *Settings*, and select *Commonly Used*.
+Your editor should be set such that tabs are equivalent to four
+spaces. In this section, we explain how to configure indentation in VS
+Code. First, set the tab size to four spaces. In the Code menu, go to
+*Settings...*, *Settings*, and select *Commonly Used*.
+(Alternatively, you can use a keyboard shortcut: ``Ctrl-,`` and type
+the comma key) on WSL or ``Command-,`` on macOS.)
 
 .. figure:: code-img/vscode-settings.png
 
@@ -93,8 +94,9 @@ Open the *settings.json* file and copy the following to the file.
     }
 
 
-If needed, add a comma to the last line of code within the curly
-braces.  And then add this code between the last line of code and the
+Look for the line of code immediately above the last closing curly
+brace (``}``) in the file. If that line does not end in a comma, add
+one.  Then add the code shown between the line you just found and the
 closing curly brace.
 
 The result should look like this: 
@@ -103,26 +105,25 @@ The result should look like this:
 
 (If you have set other settings, you may see additional information in the file.)
 
-Make sure to save the file using ``Ctrl-s``, if you are using a
-Windows or Linux Machine or ``Command-s``, if you are using a MacOS
-machine.  If your changes worked properly, you will see a vertical
-red-line at 80 characters.  If your VSCode window is wide enough, you
-will see a second vertical line at 120 characters.
+Make sure to save the file using ``Ctrl-s``, if you are using WSL or
+``Command-s``, if you are using a MacOS machine.  If your changes
+worked properly, you will see a vertical red-line at 80 characters.
+(You may need to make your window wider to see the line.)  If your
+VSCode window is wide enough, you will see a second vertical line at
+120 characters.
+
 
 Turning off Git Integration
 ---------------------------
 
-Git is a version control system that you will use in your CS classes
-and that we will cover in tomorrow's sessions.
-
 By default, VSCode has tools for working with Git installed.  While
-this integration can be helpful for programmers who have a good
-understanding of Git, it can cause problems for new programmers.  To
-avoid these problems, we want you to turn off Git integration.
+this integration can be helpful for experienced programmers who have a
+good working knowledge of Git, it can cause problems for new
+programmers.  To avoid these problems, we want you to turn off Git
+integration.
 
-To do so, open the VSCode settings panel by using the menu as
-you did in the previous section or using the keyboard shortcut
-``Ctrl-,`` (``Command-,`` for MacOS users).
+To do so, open the VSCode settings panel by using the menu or using
+the keyboard shortcut ``Ctrl-,`` (``Command-,`` for MacOS users).
 
 In the settings search bar, type ``git: enabled`` as shown below:
 
@@ -172,7 +173,8 @@ hide copilot.  Click on "Hide Copilot":
   
 .. figure::  code-img/copilot-2.png
    :align: center
-   :width: 6in
+   :width: 3in
+	   
 
 
 If you are new to VS Code, then you are done.
@@ -192,7 +194,3 @@ Go through the same process for "Github Copilot Chat":
 .. figure::  code-img/copilot-4.png
    :align: center
    :width: 6in
-
-
-
-
