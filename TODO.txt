@@ -26,5 +26,26 @@ Day 3:
      - add the correct output for the Python version check
      - I (AMR) used 3.13 for the Python version.  We'll need to update that
         if Suhail wants to use something different.
+     - Fix the place where it shows the output from the version check
+   Slides:
+     - Fill in the placeholder slides.
+     - Switch to using <> for placeholders or maybe switch the <> placeholders elsewhere to {}.
+     - See the speaker notes in each slide for other possible changes.
+
+   Lab:
+     - Remove AMR's changes
+     - Update the autograder.  I'd like to have four tests:
+        (1) that tests "air" on game.py,
+	(2) one that tests "aiiiiir" on game.py
+	(3) one that tests "aiiiiir" on game_repeats.py
+	(4) one that tests "boo" on game_repeats.py
+
+       I would have made this change, but I am not familar with the testing framework
+       you used and I ran out of time/energy to figure out how to fix it.
+
+
+
+
+   
 	
    
