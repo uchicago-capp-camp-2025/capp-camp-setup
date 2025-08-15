@@ -1,7 +1,6 @@
 Day 1:
 
   Linux Slides
-    - Slides 29 and 32: replace {} with <> as the placeholder
     - Slide 19 replace Windows entry with the appropriate entry for WSL
 
   Setup:
@@ -23,25 +22,17 @@ Day 3:
    Setup:
      - we need instructions for installing uv on WSL
      - add instructions for uv on WSL
-     - add the correct output for the Python version check
-     - I (AMR) used 3.13 for the Python version.  We'll need to update that
-        if Suhail wants to use something different.
+     - add the correct output for the Python version check (confirmed w/ Suhail 3.13 will be used)
      - Fix the place where it shows the output from the version check
    Slides:
-     - Fill in the placeholder slides.
-     - Switch to using <> for placeholders or maybe switch the <> placeholders elsewhere to {}.
      - See the speaker notes in each slide for other possible changes.
 
    Lab:
-     - Remove AMR's changes
-     - Update the autograder.  I'd like to have four tests:
+     - JPT added autograder with these four tests, glad to make changes
         (1) that tests "air" on game.py,
 	(2) one that tests "aiiiiir" on game.py
 	(3) one that tests "aiiiiir" on game_repeats.py
 	(4) one that tests "boo" on game_repeats.py
-
-       I would have made this change, but I am not familar with the testing framework
-       you used and I ran out of time/energy to figure out how to fix it.
 
 
 
