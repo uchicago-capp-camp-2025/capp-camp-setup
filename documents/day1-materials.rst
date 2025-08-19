@@ -29,6 +29,8 @@ It should **not** be included when you run the listed commands.
 
 **macOS** 
 
+In a terminal window, run the following commands::
+
   $ cd
   $ curl -O ADD_URL
   $ unzip capp-camp-2025.zip

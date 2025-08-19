@@ -2,20 +2,43 @@ Day 1:
 
   Linux Slides
     - Slide 19 replace Windows entry with the appropriate entry for WSL
+    - Add URL for setup document to slide 3
 
   Setup:
-    - Add instructions for how to setup the code command for VSCode on macOS and for WSL.
+    - Take a screenshot of a WSL terminal.
+    - Add instructions for how to setup the code command for VSCode for WSL.  Does it come automatically installed?
     - Make the zip file, figure out where to put it, and update the instructions for picking it up.
 
   Question: should we move the description of the work for the Linux practice session from the README into
     the CAPP Camp setup documentation or should we just include a PDF?
 
 Day 2:
+  Slides:
+    Slide 14 -- maybe we should move this file to follow slide 38 and then again
+    after slide 42?
+
   Setup:
     - Create the classroom and update URL below
+    - Add the git config instructions to the setup materials for day 2
+        $ git config --global user.name "YOUR NAME"
+	$ git config --global user.email "YOUR UCHICAGO EMAIL ADDRESS"
+	$ git config --global init.defaultBranch main
+
+	To Confirm:
+
+	  $ cat .gitconfig
+
+	Or:
+	  $ git config --list
+
 
   Question: do we want to one or more pushes to this lab and, possibly,
   have them look at the repo on Github before and after the push?
+
+  Question: the xcode install process takes a while (20 minutes or so).
+  Should we have the students do the Day 2 installation process at the
+  end of Day 1?  That will allow us to have a predictable start time
+  for Day 2.
 
 
 Day 3:

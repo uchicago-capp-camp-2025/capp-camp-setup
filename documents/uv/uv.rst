@@ -50,7 +50,7 @@ https://docs.astral.sh/uv/getting-started/installation/#shell-autocompletion
 
 To install ``uv`` on WSL run::
 
-NEED INSTRUCTIONS
+  NEED INSTRUCTIONS
 
 
 Installing Python using uv

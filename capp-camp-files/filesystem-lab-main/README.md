@@ -28,7 +28,7 @@ Take a look at the `files/` directory provided. Use `ls`, `cd`, and `cat` to exa
 
 You should discover that there are files about animals, planets, and comets all mixed up.
 
-Our goal today is going to be reorganizing these files.
+Our goal today is to reorganize these files.
 
 ## Part 1: Making Directories
 

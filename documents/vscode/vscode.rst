@@ -17,13 +17,7 @@ which means that, if you become fluent in using VS Code with Python,
 and then need to edit some C or Javascript code, you won't have to learn
 how to use a new editor from scratch.
 
-Additionally, VS Code makes it fairly easy to connect to a remote
-server via SSH, which means you can use VS Code on your personal
-computer to edit files that live in the CAPP servers, as well as
-interact with those files (e.g., to run your code) from a built-in
-terminal.
-
-Finally, VS Code is free! You won't have to pay anything to use it.
+Also, VS Code is free! You won't have to pay anything to use it.
 
 In this section, we provide instructions on how to install VS Code and
 provide a list of useful VS Code tips.
@@ -37,7 +31,9 @@ Installing Visual Studio Code
    Check the instructions
     
 
-Follow the instructions for your operating system:
+Follow the instructions for your operating system.
+
+**Important note:** When you open VS Code, you will be offered the opportunity to use AI feature with Copilot.  **Do NOT choose this option.  You will likely be allowed to use generative AI tools later in your CAPP career, but you are not allowed to use it in CAPP 30121 or CAPP 30122.**  You can ignore the whole Welcome page.  We will help you configure VS Code for use with Python later in the week.
 
 Windows
 ~~~~~~~
@@ -46,7 +42,7 @@ Go to https://code.visualstudio.com/. You should see a blue button labeled *Down
 
 .. figure:: code-img/install-code-win-1.png
 
-Click this button to download. Once it is downloaded, run the installer (``VSCodeUserSetup-<version>.exe``).
+Click this button to download VS Code for Windows. Once it is downloaded, run the installer (``VSCodeUserSetup-<version>.exe``).
 
 After you accept the license agreement, click *Next >*. On the page titled *Select Additional Tasks*, we recommend you check all the boxes (but it is up to you).
 
@@ -57,15 +53,44 @@ Click *Next >*, then click *Install*. When the progress bar fills, click *Finish
 macOS
 ~~~~~
 
-Go to https://code.visualstudio.com/. You should see a blue button labeled *Download for Mac Universal, Stable Build*.
+Go to https://code.visualstudio.com/. You should see a black button labeled *Download for macOS*.
 
 .. figure:: code-img/install-code-mac-1.png
 
-Click on this button to download. When the download is complete, you will have a new application file called *Visual Studio Code*. You might instead have zip file, with a name like ``VSCode-darwin-universal.zip``; in this case, open the file to unzip it, and the *Visual Studio Code* application file should appear. Open a *Finder* window and navigate to *Downloads* (it will likely be listed under "Favorites" in the left sidebar). Locate the file named *Visual Studio Code*, and drag it on top of *Applications* in the left side bar.
+Click on this button to download.  You may be asked if you wish to allow the download.  Click yes. When the download is complete, you will have a new application file called *Visual Studio Code*. You might instead have zip file, with a name like ``VSCode-something.zip``; in this case, open the file to unzip it, and the *Visual Studio Code* application file should appear. Open a *Finder* window and navigate to *Downloads* (it will likely be listed under "Favorites" in the left sidebar). Locate the file named *Visual Studio Code*, and drag it on top of *Applications* in the left side bar.
 
 .. figure:: code-img/install-code-mac-2.png
 
 Now, you can find VSCode in your Applications folder, and can open it with a click.
+
+It is also convenient to be able to launch VS Code from the
+command-line.  To setup this feature, open the command palette by
+typing ``Cmd + Shift + P`` (that is, hold down the command and shift
+keys together and type ``P``).  In the search box, type ``code``.  An
+option that says ``Shell Command: Install 'code' command in PATH``
+should pop up.  Click on it:
+
+.. figure:: code-img/install-code-mac-3.png
+
+If this command is successful, you will see:
+
+
+.. figure:: code-img/install-code-mac-4.png
+  :scale: 40%
+	  
+Click ``OK``.
+
+You can verify that the ``code`` command has been installed
+using ``which`` using the command-line in a terminal window::
+
+  $ which code
+  /usr/local/bin/code
+
+If you get similar output when you run ``which code`` in a terminal
+window, then you are all set to use the ``code`` command to open VS
+Code.  Give it a try::
+
+  $ code
 
 
 Linux
