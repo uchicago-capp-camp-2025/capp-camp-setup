@@ -256,3 +256,47 @@ This means your SSH key is properly set up. Don't worry about the "does not prov
 normal.
 
 If you are unable to set up your SSH key, please make sure to ask for help.
+
+Configuring git
+---------------
+
+Git has a collection of options that can be configured from the
+command-line.  In this section, you are going to set three of them:
+your name, your email address, and the default branch name (we don't
+expect this last one to be meaningful at this time, but it needs to be
+set).
+
+You will run these commands in a terminal window.  Start by running::
+
+  $ cd
+
+to ensure that you are in your home directory.
+
+Then run the following command with ``"YOUR NAME"`` replaced by your
+actual name to set the user name option::
+
+   $ git config --global user.name "YOUR NAME"
+
+To set the user email option, run the following command with ``YOUR
+UCHICAGO EMAIL ADDRESS`` replaced with your UChicago email address::
+
+  $ git config --global user.email "YOUR UCHICAGO EMAIL ADDRESS"
+
+And finally, run::
+
+  $ git config --global init.defaultBranch main
+
+to set the name of the default branch to ``main``.
+
+To confirm that you set these option correctly, you can run::
+
+  $ cat .gitconfig
+
+or::
+
+  $ git config --list
+
+Make sure that you see your name and your email address and not the
+capitalized placeholders!
+
+

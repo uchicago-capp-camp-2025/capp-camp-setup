@@ -5,15 +5,12 @@ Configuring Visual Studio Code
 
 TODO:
 
-- Change the code-image/connect-10.png to use an instance of VS Code connected to one of the CAPP servers.
-- Write the section on turning off Copilot integration.
-
 In this page, you will find instructions on how to set some common
 configuration options for VS Code. Some of these changes will make it
 easier to conform to the `Python style guide
 <https://uchicago-cs.github.io/student-resource-guide/style-guide/python.html>`__
 that will be used in many of your CS courses.  Others will make it
-less likely for you to run into difficult-to-diagnose Git problems and
+less likely that you will run into difficult-to-diagnose Git problems and
 help ensure that you are following your instructor's rules on use of
 Generative AI.
 
@@ -53,7 +50,7 @@ Space Indentation
 Your editor should be set such that tabs are equivalent to four
 spaces. In this section, we explain how to configure indentation in VS
 Code. First, set the tab size to four spaces. In the Code menu, go to
-*Settings...*, *Settings*, and select *Commonly Used*.
+*Preferences...*, *Settings*, and select *Commonly Used*.
 (Alternatively, you can use a keyboard shortcut: ``Ctrl-,`` and type
 the comma key) on WSL or ``Command-,`` on macOS.)
 
@@ -96,7 +93,7 @@ Open the *settings.json* file and copy the following to the file.
 
 Look for the line of code immediately above the last closing curly
 brace (``}``) in the file. If that line does not end in a comma, add
-one.  Then add the code shown between the line you just found and the
+one.  Then add the code shown above between the line you just found and the
 closing curly brace.
 
 The result should look like this: 
@@ -151,46 +148,29 @@ Turning off Copilot integration
 
 CAPP students are not allowed to use generative AI tools, such as,
 Chat GPT and Github Copilot, in their first few CS courses.
-Unfortunately, Microsoft, which supplies VSCode, is pretty agressive
+Unfortunately, Microsoft, which supplies VSCode, is pretty aggressive
 about encouraging users to use it.
 
 You can and should turn off the Copilot menu items and remove the
 Copilot icon from the bottom tool bar.  To do so open the command
 palette (Ctrl-Shift-P or Command-Shift-P on MacOS) and type "Hide
-Copilot" in the search box.  Execute the "Chat: Hide Copilot" command
+Copilot" in the search box.  Execute the "Chat: Hide AI Features" command
 by clicking on it.
-
-(The "recently used" tag is unlikely to appear when you work through this process.)
-
 
 .. figure::  code-img/copilot-1.png
    :align: center
-   :width: 6in
 
 
 A dialog box will pop up to ask if if you are sure that you want to
-hide copilot.  Click on "Hide Copilot":
+hide Ai features.  Click on "Hide AI Features":
   
 .. figure::  code-img/copilot-2.png
    :align: center
-   :width: 3in
-	   
+   :scale: 40%	   
 
 
 If you are new to VS Code, then you are done.
 
-If you previously installed the Copilot and/or Copilot Chat
-extensions, please disable or, better yet, uninstall them now.  Open
-the Extensions panel and the search for "Github Copilot". Click on the
-relevant entry and choose uninstall (preferred) or disable.
-
-.. figure::  code-img/copilot-3.png
-   :align: center
-   :width: 6in
-
-
-Go through the same process for "Github Copilot Chat":
-
-.. figure::  code-img/copilot-4.png
-   :align: center
-   :width: 6in
+If you previously installed the Copilot, Copilot Chat, and/or any
+other generative AI extensions, please ask your TA or instructor to
+help you figure out how to turn them off.

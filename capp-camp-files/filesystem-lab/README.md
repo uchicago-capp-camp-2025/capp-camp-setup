@@ -9,18 +9,22 @@ directory named `animals` using the `mkdir` command, the tick marks
 should not be included for either the command name or the directory
 name.
 
+Alternatively, if you open this file in VS Code, you can view a
+formatted version of the file using the keyboard shortcut `Ctrl-k v`
+on WSL or `Cmd-k v` on macOS.
+
 In this directory you'll find:
 
 - `README.md` - this file
 - `check.py` - a python script that checks if your directory structure looks as expected
 - `files/` - a directory with a bunch of text files all mixed up together
 
-At any point you may type `python3 check.py` **within this directory** and you will see a description of your progress.
+At any point you may type `uv run python check.py` **within this directory** and you will see a description of your progress.
 
 ### Tips
 
 - Do not rush through to the "brute force" solution, consider what keyboard shortcuts, globs, etc. will be helpful. The goal is to gain familiarity with the terminal.
-- Run `python3 check.py` after each part to ensure that you didn't miss anything.
+- Run `uv run python check.py` after each part to ensure that you didn't miss anything.
 
 ## Part 0: Explore `files/`
 
@@ -41,7 +45,7 @@ We'll want to create a few directories:
 
 Use the `mkdir` command to create all of these directories.
 
-Run `python3 check.py` (from the `filesystem-lab` directory) when ready.
+Run `uv run python check.py` (from the `filesystem-lab` directory) when ready.
 
 ## Part 2: Moving Files
 
@@ -53,7 +57,7 @@ and name it properly when you move it.
 
 Tip: if in doubt based on a file name, use `cat` to view the contents.
 
-Run `python3 check.py` (from the `filesystem-lab` directory) when ready.
+Run `uv run python check.py` (from the `filesystem-lab` directory) when ready.
 
 ### Part 3: Editing Files
 
@@ -64,7 +68,7 @@ You'll need to make the following changes:
 - Jupiter had three new moons confirmed in 2023, so update Jupiter to have 95 moons instead of 92.
 - There is no `venus.txt`. Venus has no moons. Add a new file for Venus, with "moons: 0".
 
-Once you are done with those changes, `python3 check.py` will confirm you are done with this lab!
+Once you are done with those changes, `uv run python check.py` will confirm you are done with this lab!
 
 ### Credits
 

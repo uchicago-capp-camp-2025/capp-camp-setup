@@ -1,7 +1,7 @@
 .. _day1-materials:
 
-Pick Up Days 1 Materials
-========================
+Pick Up Day 1 Materials
+=======================
 
 TODO:
 

@@ -9,37 +9,21 @@ Day 1:
     - Add instructions for how to setup the code command for VSCode for WSL.  Does it come automatically installed?
     - Make the zip file, figure out where to put it, and update the instructions for picking it up.
 
-  Question: should we move the description of the work for the Linux practice session from the README into
-    the CAPP Camp setup documentation or should we just include a PDF?
-
 Day 2:
   Slides:
     Slide 14 -- maybe we should move this file to follow slide 38 and then again
     after slide 42?
 
   Setup:
-    - Create the classroom and update URL below
-    - Add the git config instructions to the setup materials for day 2
-        $ git config --global user.name "YOUR NAME"
-	$ git config --global user.email "YOUR UCHICAGO EMAIL ADDRESS"
-	$ git config --global init.defaultBranch main
 
-	To Confirm:
-
-	  $ cat .gitconfig
-
-	Or:
-	  $ git config --list
-
-
-  Question: do we want to one or more pushes to this lab and, possibly,
-  have them look at the repo on Github before and after the push?
+  Lab:
+    - the history in the template repository is not showing up when I accept the assignment
+      using my student alter ego.  What did I do wrong in the setup process?
 
   Question: the xcode install process takes a while (20 minutes or so).
   Should we have the students do the Day 2 installation process at the
   end of Day 1?  That will allow us to have a predictable start time
   for Day 2.
-
 
 Day 3:
    Setup:
@@ -47,6 +31,7 @@ Day 3:
      - add instructions for uv on WSL
      - add the correct output for the Python version check (confirmed w/ Suhail 3.13 will be used)
      - Fix the place where it shows the output from the version check
+
    Slides:
      - See the speaker notes in each slide for other possible changes.
 
@@ -56,6 +41,7 @@ Day 3:
 	(2) one that tests "aiiiiir" on game.py
 	(3) one that tests "aiiiiir" on game_repeats.py
 	(4) one that tests "boo" on game_repeats.py
+     - AMR: removed the last test, since it works for the first submission.
 
 
 

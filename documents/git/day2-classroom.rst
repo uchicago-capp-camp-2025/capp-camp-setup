@@ -14,7 +14,7 @@ students and distribute to starter code.
 We'll be using GitHub classroom to create the repository that
 you will be using for this afternoon's practice session.
 
-To create your repository, click on the following URL and then select
+To create your repository, click on the following URL `https://classroom.github.com/classrooms/224172610-uchicago-capp-camp-2025-gitlab <https://classroom.github.com/classrooms/224172610-uchicago-capp-camp-2025-gitlab>`__ and then select
 your UChicago email address from the list. Finally, authorize GitHub
 to connect your account to our GitHub classroom.
 
