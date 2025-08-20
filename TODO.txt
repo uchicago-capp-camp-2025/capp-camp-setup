@@ -19,6 +19,8 @@ Day 2:
   Lab:
     - the history in the template repository is not showing up when I accept the assignment
       using my student alter ego.  What did I do wrong in the setup process?
+    - the slides have them do a push write away.  I added two pushes into the README itself.  Should
+      we skip the slides? Should I update the README text for the pushes?
 
   Question: the xcode install process takes a while (20 minutes or so).
   Should we have the students do the Day 2 installation process at the
