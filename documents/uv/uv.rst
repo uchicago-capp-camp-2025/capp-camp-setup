@@ -40,6 +40,7 @@ To install ``uv`` on macOS run::
 
 And to add to your autocompletion for zsh::
 
+   $ echo -e "autoload -Uz compinit\ncompinit" >> ~/.zshrc
    $ echo 'eval "$(uv generate-shell-completion zsh)"' >> ~/.zshrc
 
 If you have chosen to use a shell other than zsh, see

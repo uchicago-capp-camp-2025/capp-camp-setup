@@ -2,12 +2,17 @@ Day 1:
 
   Linux Slides
     - Slide 19 replace Windows entry with the appropriate entry for WSL
-    - Add URL for setup document to slide 3
+    - Slide 35 slide talks about -r, but then has an example with -f.  Not easily fixable.
+    - Slide 54: Add URL for setup document
 
   Setup:
     - Take a screenshot of a WSL terminal.
     - Add instructions for how to setup the code command for VSCode for WSL.  Does it come automatically installed?
-    - Make the zip file, figure out where to put it, and update the instructions for picking it up.
+    - Zip file currently is in http://cs.uchicago.edu/~amr/capp-camp-files.zip.  Is there a better place to put it?
+
+  Question: some of our instructions use Ctrl-X and some use Ctrl + X.  Are we OK with using two different styles or
+   do we want to pick one and stick to it?  If so, which one?
+
 
 Day 2:
   Slides:
