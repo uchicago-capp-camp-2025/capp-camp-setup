@@ -9,9 +9,12 @@ Day 1:
     - Take a screenshot of a WSL terminal.
     - Add instructions for how to setup the code command for VSCode for WSL.  Does it come automatically installed?
     - Zip file currently is in http://cs.uchicago.edu/~amr/capp-camp-files.zip.  Is there a better place to put it?
+    - add instructions for uv on WSL
+    - add Python version check output
+
 
   Question: some of our instructions use Ctrl-X and some use Ctrl + X.  Are we OK with using two different styles or
-   do we want to pick one and stick to it?  If so, which one?
+   do we want to pick one and stick to it?  If so, which one?  USE BOTH
 
 
 Day 2:
@@ -33,12 +36,6 @@ Day 2:
   for Day 2.
 
 Day 3:
-   Setup:
-     - we need instructions for installing uv on WSL
-     - add instructions for uv on WSL
-     - add the correct output for the Python version check (confirmed w/ Suhail 3.13 will be used)
-     - Fix the place where it shows the output from the version check
-
    Slides:
      - See the speaker notes in each slide for other possible changes.
 
