@@ -13,7 +13,7 @@ eliminate the kinds of problems that can arise when students use the
 wrong version of a library.  Fortunately, it is easy to install and
 easy to use.
 
-We will discuss why we chose ``uv`` over other tools during today's
+We will discuss why we chose ``uv`` over other tools during Friday's
 session.
 
 This document explains how to install ``uv`` and then how to use it to
@@ -31,6 +31,7 @@ To install ``uv`` run::
 
 Then, on MacOS with zsh::
 
+   $ echo -e "autoload -Uz compinit\ncompinit" >> ~/.zshrc
    $ echo 'eval "$(uv generate-shell-completion zsh)"' >> ~/.zshrc
 
 Or, on WSL with bash::
@@ -39,7 +40,6 @@ Or, on WSL with bash::
 
 If you have chosen to use a shell other than the default, see
 https://docs.astral.sh/uv/getting-started/installation/#shell-autocompletion
-
 
 Installing Python using uv
 --------------------------

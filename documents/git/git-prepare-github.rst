@@ -7,11 +7,11 @@ Git is a version control system and GitHub is a hosting service for
 Git.  We will discuss version control in general and Git, in
 particular, in detail in today's session.  The purpose of this
 document is to guide you through the steps necessary to
-use Git and Github.  Specifically, you will:
+set up your laptop to use Git and Github.  Specifically, you will:
 
 - Install Git on your laptop
 - Create a GitHub account (if needed),
-- Create an SSH key using one the CS Linux servers, and
+- Create an SSH key on your laptop, and
 - Upload that key to GitHub.
 
 To start open a terminal window (macOS) or a WSL window (Windows). You
@@ -28,25 +28,43 @@ determine whether it is installed::
 
   $ git --version
 
-If git is install, the command will run successfully and output
-version information.  If not, you will get an error message.
+If git is installed, the command will run successfully and output
+version information. If so, please move on to the
+:ref:`github-account` section.
 
-If git is installed, please move on to the :ref:`next section <github-account>`.
+If git is not installed, please follow the instructions for your
+operating systrem.
 
+.. _macos_git_install:
 
 MacOS Installation Instructions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The most straightforward way to install Git on macOS is to use
-``xcode-select``, which is packaged with macOS.  At the command line
-run::
+If git is not installed, you will get an error message saying that the
+developer tools were not found. You may also get a pop-up message:
+
+.. figure:: git-img/git-install-macos.png
+  :scale: 40%	    
+
+Click ``Install`` to continue. Once the installation step is complete,
+verify that ``git`` is installed by running::
+
+  $ git --version.
+
+If this command succeeds, please move on to the :ref:`github-account`
+section.  If this command fails, please ask for help.
+
+If you do not get the pop-up, then the most straightforward way to
+install Git on macOS is to use ``xcode-select``, which is packaged
+with macOS.  At the command line run::
 
   $ xcode-select --install
 
 This command will prompt you to install the Command Line Tools. Click
 ``Install`` to continue.
 
-Once this step is complete, verify that ``git`` is installed by running::
+Once the installation step is complete, verify that ``git`` is
+installed by running::
 
   $ git --version.
 
@@ -56,12 +74,20 @@ If this command fails, please ask for help.
 WSL Installation Instructions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can install Git on WSL using the following command:
+You can install Git on WSL using the following command::
 
 	$ sudo apt-get update
 	$ sudo apt-get install git
 
 You may be asked for your laptop password when you run ``sudo``.
+
+Once the installation step is complete, verify that ``git`` is
+installed by running::
+
+  $ git --version.
+
+If this command fails, please ask for help.
+
 
 .. _github-account:
 
@@ -230,3 +256,47 @@ This means your SSH key is properly set up. Don't worry about the "does not prov
 normal.
 
 If you are unable to set up your SSH key, please make sure to ask for help.
+
+Configuring git
+---------------
+
+Git has a collection of options that can be configured from the
+command-line.  In this section, you are going to set three of them:
+your name, your email address, and the default branch name (we don't
+expect this last one to be meaningful at this time, but it needs to be
+set).
+
+You will run these commands in a terminal window.  Start by running::
+
+  $ cd
+
+to ensure that you are in your home directory.
+
+Then run the following command with ``"YOUR NAME"`` replaced by your
+actual name to set the user name option::
+
+   $ git config --global user.name "YOUR NAME"
+
+To set the user email option, run the following command with ``YOUR
+UCHICAGO EMAIL ADDRESS`` replaced with your UChicago email address::
+
+  $ git config --global user.email "YOUR UCHICAGO EMAIL ADDRESS"
+
+And finally, run::
+
+  $ git config --global init.defaultBranch main
+
+to set the name of the default branch to ``main``.
+
+To confirm that you set these option correctly, you can run::
+
+  $ cat .gitconfig
+
+or::
+
+  $ git config --list
+
+Make sure that you see your name and your email address and not the
+capitalized placeholders!
+
+

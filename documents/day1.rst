@@ -31,6 +31,12 @@ Please work through the instructions in the following documents:
    :maxdepth: 2
    :hidden:
 
+   uv/uv.rst
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
    day1-materials.rst
    
       

@@ -1,7 +1,7 @@
 .. _day1-materials:
 
-Pick Up Days 1 Materials
-========================
+Pick Up Day 1 Materials
+=======================
 
 TODO:
 
@@ -28,6 +28,8 @@ It should **not** be included when you run the listed commands.
   $ unzip capp-camp-2025.zip
 
 **macOS** 
+
+In a terminal window, run the following commands::
 
   $ cd
   $ curl -O ADD_URL
