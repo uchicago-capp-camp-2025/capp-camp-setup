@@ -113,7 +113,7 @@ can just think of them as extra-secure passwords.)
 
 To create an SSH key, run the following command from the terminal::
 
-    $ ssh-keygen -t ed25519 -C "GitHub SSH Key"
+    $ ssh-keygen -t ed25519 -C "Laptop SSH Key"
 
 (As an aside, Ed25519 is a public-key signature system.  It is more
 secure than RSA, which may be more familiar to some of you.)
@@ -128,7 +128,7 @@ prompt. On macOS, ``DEFAULT_FILE_NAME`` will have the form
 ``/Users/YOUR_USERNAME/.ssh/id_ed25519``.  On WSL,
 ``DEFAULT_FILE_NAME`` something of the form:
 ``/home/YOUR_USERNAME/.ssh/id_ed25519``.  In both cases,
-``YOUR_USENAME`` is the user name that you use on your laptop.
+``YOUR_USERNAME`` is the user name that you use on your laptop.
 
 .. note::
 
@@ -160,7 +160,7 @@ If all goes well, you should see something like this::
     Your identification has been saved in DEFAULT_FILE_NAME
     Your public key has been saved in DEFAULT_FILE_NAME
     The key fingerprint is:
-    SHA256:CvLPtFFx70iR3Fas2o0pmbnWwQ8gJSVke8FmWzzPmhU CS Linux Server SSH Key
+    SHA256:CvLPtFFx70iR3Fas2o0pmbnWwQ8gJSVke8FmWzzPmhU Laptop SSH Key
     The key's randomart image is:
     +--[ED25519 256]--+
     |       .+oo. ..  |
@@ -174,7 +174,7 @@ If all goes well, you should see something like this::
     |      +  .       |
     +----[SHA256]-----+
 
-This means your key was created correctly.  WSL users will see 
+This means your key was created correctly.
 
 
 .. _uploading:
@@ -203,7 +203,7 @@ out the contents of that file, we can just use the ``cat`` command::
     $ cat ~/.ssh/id_ed25519.pub
 
 This will print a few lines of output starting with ``ssh-ed25519`` and
-ending with ``CS Linux Server SSH Key``.  Copy the whole output
+ending with ``Laptop SSH Key``.  Copy the whole output
 to the clipboard; you can do this by clicking and dragging the mouse
 from the first character to the last character, and then pressing
 ``Ctrl-Shift-C`` (``Cmd-C`` for MacOS users).
