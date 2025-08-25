@@ -18,13 +18,13 @@ It should **not** be included when you run the listed commands.
 **Windows** In a WSL terminal window, run the following commands::
 
   $ cd
-  $ wget -nv ADD_URL
+  $ wget -nv https://people.cs.uchicago.edu/~amr/capp-camp-2025/capp-camp-2025.zip
   $ unzip capp-camp-2025.zip
 
 **Linux** In a terminal window, run the following commands::
 
   $ cd
-  $ wget -nv ADD_URL
+  $ wget -nv https://people.cs.uchicago.edu/~amr/capp-camp-2025/capp-camp-2025.zip
   $ unzip capp-camp-2025.zip
 
 **macOS** 
@@ -32,7 +32,7 @@ It should **not** be included when you run the listed commands.
 In a terminal window, run the following commands::
 
   $ cd
-  $ curl -O ADD_URL
+  $ curl -O https://people.cs.uchicago.edu/~amr/capp-camp-2025/capp-camp-2025.zip
   $ unzip capp-camp-2025.zip
   
 

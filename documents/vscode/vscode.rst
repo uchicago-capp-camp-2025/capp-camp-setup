@@ -81,7 +81,7 @@ If this command is successful, you will see:
 Click ``OK``.
 
 You can verify that the ``code`` command has been installed
-using the ``which``command in a terminal window::
+using the ``which`` command in a terminal window::
 
   $ which code
   /usr/local/bin/code

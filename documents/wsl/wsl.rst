@@ -32,7 +32,7 @@ To run WSL, open Powershell and run the following command::
 
 Alternatively, you may open WSL by looking up the name of the Linux distribution used by WSL (Ubuntu) on the Windows home search.
 
-.. figure:: wsl-img/wsl-2.png
+.. figure:: wsl-img/wsl-3.png
 	    :scale: 60%
 
 The first time you run WSL, a terminal window will open and you will
@@ -41,11 +41,11 @@ machine. All future launches should take less than a second
 
 If you’re still unsure of whether you’re running in the correct terminal, try running the following command:
 
-	which python3
+	which grep
 
 It should print something like this:
 
-	/usr/bin/python3
+	/usr/bin/grep
 
 If you see this, you are running inside a WSL Linux terminal. This is where you should run any commands related to your coursework.
 
