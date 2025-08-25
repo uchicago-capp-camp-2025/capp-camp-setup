@@ -3,11 +3,6 @@
 Installing Windows Subsystem for Linux
 ======================================
 
-TODO:
-
-- Do we want to give some minimum Windows 11 version?
-
-
 These instructions assume that you are using Windows 11.
 
 The Windows Subsystem for Linux (WSL) is a feature on Windows that

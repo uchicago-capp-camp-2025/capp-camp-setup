@@ -23,36 +23,23 @@ install the version of Python specified by your CAPP 30121 instructor.
 Installing uv
 -------------
 
-To get started, open a terminal window (macOS) or in a WSL window
-(Windows) and run::
+First, open a MacOS or WSL Terminal.
 
-  $ cd
-
-to ensure that you are in your home directory.
-
-
-**macOS**
-
-To install ``uv`` on macOS run::
+To install ``uv`` run::
 
    $ curl -LsSf https://astral.sh/uv/install.sh | sh
 
-
-And to add to your autocompletion for zsh::
+Then, on MacOS with zsh::
 
    $ echo -e "autoload -Uz compinit\ncompinit" >> ~/.zshrc
    $ echo 'eval "$(uv generate-shell-completion zsh)"' >> ~/.zshrc
 
-If you have chosen to use a shell other than zsh, see
+Or, on WSL with bash::
+
+   $ echo 'eval "$(uv generate-shell-completion bash)"' >> ~/.bashrc
+
+If you have chosen to use a shell other than the default, see
 https://docs.astral.sh/uv/getting-started/installation/#shell-autocompletion
-
-
-**WSL**
-
-To install ``uv`` on WSL run::
-
-  NEED INSTRUCTIONS
-
 
 Installing Python using uv
 --------------------------
@@ -75,9 +62,8 @@ You can check the installed version of Python with the following command::
 
 the output will look something like::
 
-  ADD EXPECTED OUTPUT
+  Python 3.13.5
   
-DO WE WANT TO ADD A NOTE SAYING ASK FOR HELP IF THE RESULT IS NOT 3.13?
-
+If you see a version that does not start with 3.13, please ask for help.
   
 

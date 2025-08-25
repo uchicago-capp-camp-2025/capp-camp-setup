@@ -16,6 +16,12 @@ Generative AI.
 
 To get started, open VS Code.
 
+If you are using WSL, you may be greeted with a message that looks like:
+
+.. figure:: code-img/vscode-pre-wsl.png
+
+If you encounter this, you should press `Allow`.
+
 .. _vscode-install-extensions:
 
 Install Language Extensions for VS Code
@@ -42,6 +48,17 @@ In our case, you want to search for the Python language extension with
 Microsoft as the publisher.
 
 .. figure:: code-img/install-ext-4.png
+
+WSL Only: Install VS Code WSL Extension
+---------------------------------------
+
+You'll want to follow the same process as above to install the WSL extension from Microsoft.
+
+.. figure:: code-img/vscode-wsl-install.png
+
+This extension enables VS Code to communicate more effectively with your WSL installation. Once it is installed, restart VS Code and you should see this in the lower-left corner of the window:
+
+.. figure:: code-img/vscode-wsl-working.png
 
 
 Space Indentation
