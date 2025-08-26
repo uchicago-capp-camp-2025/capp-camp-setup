@@ -3,8 +3,6 @@
 Configuring Visual Studio Code
 ==============================
 
-TODO:
-
 In this page, you will find instructions on how to set some common
 configuration options for VS Code. Some of these changes will make it
 easier to conform to the `Python style guide

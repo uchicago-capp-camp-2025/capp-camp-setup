@@ -36,12 +36,13 @@ Our goal today is to reorganize these files.
 
 ## Part 1: Making Directories
 
-We'll want to create a few directories:
+We'll want to create a few directories within your `filesystem-lab` directory:
 
 - `animals/` - to contain all files on animals
 - `space/` - which will have two subdirectories
   - `space/planets`
   - `space/comets`
+
 
 Use the `mkdir` command to create all of these directories.
 

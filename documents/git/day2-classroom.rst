@@ -3,10 +3,6 @@
 Creating a practice repository
 ==============================
 
-TODO:
-
-- create the classroom and update URL below
-
 Many of your CS classes will use GitHub Classroom, which is a tool
 that makes it easy for instructors to create repositories for their
 students and distribute to starter code.
@@ -14,7 +10,7 @@ students and distribute to starter code.
 We'll be using GitHub classroom to create the repository that
 you will be using for this afternoon's practice session.
 
-To create your repository, click on the following URL `https://classroom.github.com/classrooms/224172610-uchicago-capp-camp-2025-gitlab <https://classroom.github.com/classrooms/224172610-uchicago-capp-camp-2025-gitlab>`__ and then select
+To create your repository, click on the following URL `https://classroom.github.com/a/WKllzQg1 <https://classroom.github.com/a/WKllzQg1>`__ and then select
 your UChicago email address from the list. Finally, authorize GitHub
 to connect your account to our GitHub classroom.
 
