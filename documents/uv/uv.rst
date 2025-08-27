@@ -19,6 +19,9 @@ session.
 This document explains how to install ``uv`` and then how to use it to
 install the version of Python specified by your CAPP 30121 instructor.
 
+In the instructions below, the ``$`` signals the command-line prompt.
+It should **not** be included when you run the listed commands.
+
 
 Installing uv
 -------------

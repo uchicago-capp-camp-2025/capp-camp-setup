@@ -49,7 +49,7 @@ developer tools were not found. You may also get a pop-up message:
 Click ``Install`` to continue. Once the installation step is complete,
 verify that ``git`` is installed by running::
 
-  $ git --version.
+  $ git --version
 
 If this command succeeds, please move on to the :ref:`github-account`
 section.  If this command fails, please ask for help.
@@ -66,7 +66,7 @@ This command will prompt you to install the Command Line Tools. Click
 Once the installation step is complete, verify that ``git`` is
 installed by running::
 
-  $ git --version.
+  $ git --version
 
 If this command fails, please ask for help.
 
@@ -84,7 +84,7 @@ You may be asked for your laptop password when you run ``sudo``.
 Once the installation step is complete, verify that ``git`` is
 installed by running::
 
-  $ git --version.
+  $ git --version
 
 If this command fails, please ask for help.
 

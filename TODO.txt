@@ -1,3 +1,18 @@
+-- check the SLIDE URLs and schedule a message for Ed
+
+-- Ed post:
+
+ (1) How to forget a network
+ (2) Link setup documents
+ (3) A link to the slide PDF
+
+
+
+
+
+
+
+
 Day 1:
 
   Linux Slides

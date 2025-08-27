@@ -22,14 +22,12 @@ Also, VS Code is free! You won't have to pay anything to use it.
 In this section, we provide instructions on how to install VS Code and
 provide a list of useful VS Code tips.
 
+In the instructions below, the ``$`` signals the command-line prompt.
+It should **not** be included when you run the listed commands.
+
+
 Installing Visual Studio Code
 -----------------------------
-
-.. Todo::
-    
-   Linux: how to pick matching installer -- Add Annotations
-   Check the instructions
-    
 
 Follow the instructions for your operating system.
 

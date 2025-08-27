@@ -12,7 +12,7 @@ Please work through the instructions in the following documents:
 
 - :ref:`terminal-app`
 - :ref:`vscode-about`
-- :ref:`python-setup`
+- :ref:`python_setup`
 - :ref:`day1-materials`  
 
 
