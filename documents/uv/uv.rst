@@ -41,6 +41,8 @@ Or, on WSL with bash::
 If you have chosen to use a shell other than the default, see
 https://docs.astral.sh/uv/getting-started/installation/#shell-autocompletion
 
+**After this command runs, close your terminal and open a new one.**
+
 Installing Python using uv
 --------------------------
 

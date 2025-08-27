@@ -24,9 +24,11 @@ and type the following command::
 .. figure:: wsl-img/wsl-2.png
 	    :scale: 60%
 
-After running the command, make sure to restart your machine.
+After running the command, make sure to **restart your machine**.
 
-To run WSL, open Powershell and run the following command::
+After rebooting, open Powershell and run `wsl --install Ubuntu-24.04`, this will install the version of Linux we'll be using.
+
+Once this is complete, to run WSL, open Powershell and run the following command::
 
 	wsl
 

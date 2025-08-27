@@ -20,7 +20,8 @@ will assume that they reside in your home directory.
 **Windows** In a WSL terminal window, run the following commands::
 
   $ cd
-  $ wget -nv https://people.cs.uchicago.edu/~amr/capp-camp-2025/capp-camp-2025.zip
+  $ wget --no-check-certificate -nv https://people.cs.uchicago.edu/~amr/capp-camp-2025/capp-camp-2025.zip
+  $ sudo apt install unzip
   $ unzip capp-camp-2025.zip
 
 **Linux** In a terminal window, run the following commands::
