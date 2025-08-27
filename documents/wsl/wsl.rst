@@ -26,7 +26,7 @@ and type the following command::
 
 After running the command, make sure to **restart your machine**.
 
-After rebooting, open Powershell and run `wsl --install Ubuntu-24.04`, this will install the version of Linux we'll be using.
+After rebooting, open Powershell and run ``wsl --install Ubuntu-24.04``, this will install the version of Linux we'll be using.
 
 Once this is complete, to run WSL, open Powershell and run the following command::
 
