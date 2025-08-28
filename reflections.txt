@@ -1,0 +1,11 @@
+Linux --
+
+- slides are not quite in the right order.  At a minimum, the setup slide that
+has the change to the capp-camp-files directory needs to come later.
+
+
+Git --
+
+- Better slides remotes
+- Add slides to the main discussion for `git restore`
+
