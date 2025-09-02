@@ -1,11 +1,25 @@
+Install --
+
+- Have folks who have finished their installations move into the common area to keep the noise level down.
+
 Linux --
 
 - slides are not quite in the right order.  At a minimum, the setup slide that
 has the change to the capp-camp-files directory needs to come later.
 
-
 Git --
 
-- Better slides remotes
-- Add slides to the main discussion for `git restore`
+- Add slides about `git restore` to the local repo discussion
+- Put together better slides about remotes
+- Lab -
+  * have the students restore one of the (uncommited) changed files
+  * have the students stage one of the changed files and then restore it.
+
+Labs --
+  - move the instructions from the README file to an HTML file.  That will allow us to
+    include the instructions that are currently on slides/in Ed messages into the
+    lab instructions.  Having it all in one place seems better.
+
+
+ 
 

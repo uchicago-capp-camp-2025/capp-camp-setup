@@ -169,7 +169,7 @@ about encouraging users to use it.
 You can and should turn off the Copilot menu items and remove the
 Copilot icon from the bottom tool bar.  To do so open the command
 palette (Ctrl-Shift-P or Command-Shift-P on MacOS) and type "Hide
-Copilot" in the search box.  Execute the "Chat: Hide AI Features" command
+AI" in the search box.  Execute the "Chat: Hide AI Features" command
 by clicking on it.
 
 .. figure::  code-img/copilot-1.png
