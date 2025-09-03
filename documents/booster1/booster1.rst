@@ -214,10 +214,10 @@ some of the debugging required in this booster lab.  So, please don't
 worry if it feels challenging and please do not hesitate to ask
 for help.
 
-You may find it helpful to refer to the `slides
+You may find it helpful to refer to `Slides 34-44
 <https://people.cs.uchicago.edu/~amr/capp-camp-2025/workflow-slides.pdf>`__
-with the different errors from Day 3 of CAPP Camp as you work through
-this material.
+from Day 3 of CAPP Camp, which cover different types of error, as you
+work through this material.
 
 
 A game
@@ -237,10 +237,15 @@ If both players have a score over 500, then the player with the larger
 score wins.  If the players have the same score, then the game is
 declared a tie.
 
+We have implemented a generalized version of this game.  Rather than
+fixing (known as *hard-coding*) the number of dice at three and the
+threshold for winning at 500, our implementations allows the user to
+specify these values as optional command-line arguements.
+
 Our implementation, which is broken into four parts, has some syntax
-errors, some type errors, and a couple of logical errors.  Your task is
-to find these errors and fix them.  We will walk you through the
-process using a sequence of test programs, one per part.
+errors, some type errors, and one logical error.  Your task is to find
+these errors and fix them.  We will walk you through the process using
+a sequence of test programs, one per part.
 
 
 Fixing syntax errors
@@ -258,13 +263,20 @@ once you encounter the error: ``Type error: '<' not supported between instances
 of 'int' and 'str'``.  Ignore this error for now.  We'll come back to
 it later.
 
-Now would be a good time to create a commit and push your repository with github:
+Now would be a good time to create a commit and push your work to
+GitHub.  Recall that this process has three steps: stage the files you
+want to include in the commit, create the commit, and then push the
+work to GitHub:
 
 ::
 
-   $ git add -u
+   $ git add boston.py
    $ git commit -m"Fixed the syntax error"
    $ git push
+
+
+You can also use ``git add -u`` for the first step, since
+``boston.py`` is already part of the repository.
 
 
 Detour: random numbers
@@ -273,7 +285,7 @@ Detour: random numbers
 Simulating "Going to Boston" requires us to simulate the rolling of a
 set of dice.  We will use the built-in ``random`` library for this
 purpose. Specifically, the function ``random.randint``, which
-generates a random value between specified lower and upper bounds
+generates a random value between a lower bound and an upper bound
 inclusive.  (Inclusive here means that both the lower bound and the
 upper bound are among the values that might be generated).
 
@@ -317,7 +329,8 @@ generates a sequence of 20 random values without supplying a seed:
 (It may seem odd that we start counting the random numbers at zero rather than one, but you
 will get used to it.)
    
-You are likely to see a different set of values, if you run it yourself.
+You are likely to see a different set of values when you run this
+program.
 
 The program also allows us to supply a seed value.  For example:
 
@@ -355,27 +368,28 @@ The function ``get_largest_roll`` function takes a number of dice,
 face value rolled.  For example, if we roll three dice and get ``3``,
 ``6``, ``2``, the result would be ``6``.
 
-We have included a simple program that runs three tests of this
-function.
+We have included a simple program, ``test_largest_roll.py``, that runs
+three tests of this function. Use this command to run this program::
 
-When you first run it, you'll see that ``get_largest_roll`` has a name
-error.  We included this error to show you that the hints provided by
-Python, while useful, are not always right!  The comment above the
-``for`` loop provides a hint as to the correct variable to use.
+  $ uv run python test_largest_roll.py
 
-Once you fix that problem, the program will run, but the results are
-always zero.  Can you see why?
+When you run it, you'll see that ``get_largest_roll`` has a name
+error.  Not sure what might be wrong with the name?  See Slide 14 in
+the `Workflow Slides
+<https://people.cs.uchicago.edu/~amr/capp-camp-2025/workflow-slides.pdf>`__.
 
-Even if you spot the bug simply by looking at the code, we encourage
-you uncomment (that is, remove the ``#`` and the space following it)
-the two print statements and then to run the code again.  Does having
-these values make it easier to find the logical error in this code?
-(See :ref:`hint_get_largest_roll`, if you cannot spot the error after
-a couple of minutes.)
+Once you fix that problem, the program will run.  How do you tell if
+it is doing the right thing?
+
+We have included three commented-out print statements in the function.
+If you uncomment them (that is, remove the ``#`` and the space after
+it, you will get a better sense of how the function is working and
+whether it is doing the right thing.
 
 Print statements like these can be an invaluable debugging tool.  Once
-the function is working, you can remove them or simply comment them
-out, for now.
+you have seen how the function is working, you can remove them or
+simply comment them out.  (Note: you should always remove
+debugging code before you submit your work for your classes.)
 
 Now would be a good time make a commit with an appropriate commit
 message and push your work to GitHub.
@@ -396,26 +410,22 @@ will be ``get_largest_roll(1)``.  Let's say it returns a ``2``.  The
 result of the function should be ``12`` (that is, 6 + 4 + 2).
 
 We have provided a simple ``test_play_round.py``, for testing this
-function.
-
-The function has a bug that will be easiest to find, if you
-uncomment the print statements and then run the test code:
-
-::
+function.  This program takes the number of dice to use as a
+command-line argument.  Here is an example use:
 
   $ uv run python play_round_test.py 3
   Test with num_dice: 3
-    play_round(3) called
-    dice thrown: 3 score: 4
-
-    dice thrown: 2 score: 6
-
-    dice thrown: 1 score: 2
-
   score from round: 2
 
-The correct return value is ``12``.  Can you see what is wrong?  (Need
-a hint: see :ref:`hint_play_round`.)
+This result tells us that this function has a bug as two is not a
+feasible result when rolling three dice.  (The correct result is
+``12``.)  The easiest way to find the bug is to uncomment the print
+statements included in the function and then run the test code again.
+
+Can you see what is wrong?  (See :ref:`hint_play_round` for a hint.)
+
+When you have fixed the bug, please remove the print statements or
+comment them out.
 
 Now would be a good time make a commit with an appropriate commit
 message and push your work to GitHub.  Are you starting to see a
@@ -428,13 +438,15 @@ Testing and debugging ``play_one_game``
 The function ``play_one_game`` takes the number of dice to use and the
 threshold for winning a game.  The function will repeatedly run one
 round for each player until one or both of the players reaches the
-winning threshold.  The result of the function is a value less than
-zero, if the first player has the largest score, zero, if the players
-have the same score, and a value greater than zero, if second player
-has the largest score.
+winning threshold.  The result of the function is:
+
+- a value less than zero, if the first player has the largest score,
+- zero, if the players have the same score, and
+- a value greater than zero, if second player has the largest score.
 
 We have included a test program, named ``test_game.py``, that runs
-four different tests.
+four different tests.  This program takes the test to run (a value
+between 1 and 4) as a command-line argument.
 
 You will re-encounter the type error that you saw while handling the
 syntax errors when you run the test program:
@@ -451,29 +463,25 @@ syntax errors when you run the test program:
                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
    TypeError: '<' not supported between instances of 'int' and 'str'  
   
-One you fix this error, the function will run properly when you run the command above.
-
-::
-
-   $  uv run python test_game.py 1
-   Running boston.play_one_game(1, 10)
-   result from playing 3
+One you fix this error, the function will run properly when you run
+test 1.
 
 You may want to uncomment the print statements in ``play_one_game`` to see how it is working.
 
-The code will fail if you run it with ``2`` or ``3`` as the command
+The code will fail if you run it with ``3`` or ``4`` as the command
 line argument (that is, in place of the ``1``).  Both failures are the
 result of bugs in the test code.
 
-Do you see what is wrong?  In both cases, we get a type error, but the
-type errors happen in different places.  Do you see why?
+Do you see what is wrong?  In both cases, will get the same kind of
+error, but they will happen in different places in the code.  Do you
+see why?
 
 We included these errors to give you a chance to see that test code is
 not always right.  Your instructors' test code is likely to be
 correct, so don't immediately assume that any problem detected by test
-code is merely a problem with the test code.  That said, instructors
-are not infallible and neither will you be (when you start to write
-your own test code).
+code is caused by an error in the test code.  That said, instructors
+are not infallible and neither will you be when you write your own
+test code.
 
 Also, we wanted you to get a chance to see that the source of an error
 may be far away from the point at which it was detected.  The best way
