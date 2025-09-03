@@ -120,7 +120,7 @@ code.  To do so, run the following command:
 
 ::
 
-  $ git remote add upstream git@github.com:uchicago-capp-camp-2025/booster1.git
+  $ git remote add upstream git@github.com:uchicago-capp-camp-2025/booster1-upstream.git
 
 You can verify that this command ran successfully using:
 
