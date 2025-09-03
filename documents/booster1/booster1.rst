@@ -27,6 +27,8 @@ prompt of a terminal window (macOS) or a WSL window (Windows).  Also,
 make sure to replace any placeholders (such as, ``GITHUB_USERNAME``,
 with an appropriate value.
 
+**Please do not use a generative AI tool (e.g. ChatGPT, etc) to help you with this lab.** If you need help, please ask! It is crucial to learn how to debug on your own (without the aid of these tools), because many organizations do not allow their use due to the sensitive nature of their work.  We spent 30 minutes on a call today with an employer who raise this exact issue.
+
 
 Part 1: Repository Setup
 ------------------------
@@ -412,6 +414,8 @@ result of the function should be ``12`` (that is, 6 + 4 + 2).
 We have provided a simple ``test_play_round.py``, for testing this
 function.  This program takes the number of dice to use as a
 command-line argument.  Here is an example use:
+
+::
 
   $ uv run python play_round_test.py 3
   Test with num_dice: 3
