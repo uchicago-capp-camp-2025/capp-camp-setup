@@ -29,6 +29,8 @@ This part contains links for the booster sessions:
 
 - :ref:`Booster #1 <booster1>`
 
+- :ref:`Booster #3 <booster3>`
+
 
 
 .. toctree::
@@ -56,3 +58,9 @@ This part contains links for the booster sessions:
    booster1/booster1.rst
       
 
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+
+   booster3/booster3.rst
+   
