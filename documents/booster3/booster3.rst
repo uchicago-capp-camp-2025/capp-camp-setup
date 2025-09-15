@@ -74,7 +74,7 @@ a few minutes, while Person A sets up the repository.
 
 Person A should create a directory for their local copy of the
 repository.  The directory should be named
-``~/capp-camp-files/booster-3-TEAM_NAME``, where ``TEAM-NAME`` is
+``~/capp-camp-files/booster-3-TEAM_NAME``, where ``TEAM_NAME`` is
 replaced by the team's name (for example, ``amr`` would create a
 directory named ``~/capp-camp-files/booster-3-amr-borja``).
 
@@ -89,7 +89,7 @@ and then they should initialize a git repository in this directory.
 **Get the distribution**
 
 As in the previous two booster sessions, Person A will again connect
-this local repository to the upstream repository on GitHub contains
+this local repository to the upstream repository on GitHub that contains
 the starter code for this lab. To do so, run the following command:
 
 ::
@@ -143,7 +143,7 @@ end in ``.git``.
 
 **Pushing the initial commit**
 
-Once that is done, Person A push the current commit  to GitHub:
+Once that is done, Person A push the current commit to GitHub:
 
 ::
 
@@ -420,14 +420,14 @@ Anne changes the code to:
 
 
 and successfully creates a commit and pushes her changes to
-GitHUb.
+GitHub.
 
 In parallel, Borja sets the code to:
 
 ::
 
     if guess == word:
-        print(""Hooray, you win!")
+        print("Hooray, you win!")
         break
 
 He also creates a commit and tries to push his changes to
@@ -495,7 +495,7 @@ refers to changes that Anne pushed.  The long number
 
 Borja has three options:
 
-- He can accept his changes by removing the marker lines that surround  his code:
+- He can accept his changes by removing the marker lines that surround his code:
 
 ::
 
@@ -582,7 +582,7 @@ A and Person B should change this message to something else, using
 different messages.  This time, Person B should make their commit and
 push first.
 
-Person A should then make:
+Person A should then:
 
 - make their changes,
 - make a commit,
@@ -603,7 +603,7 @@ Before you finish, it is always a good idea to make sure your
 repository is in a clean state.
 
 If you followed the instructions, both repositories should be in a
-clean state.  If not, please ask for help.
+clean state, as indicated by ``git status``.  If not, please ask for help.
 
 There is nothing to submit for this Booster Session.  Once both partners'
 repositories are clean, you are done!
