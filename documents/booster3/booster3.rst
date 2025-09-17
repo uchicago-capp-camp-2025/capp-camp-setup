@@ -6,8 +6,8 @@ CAPP Camp Booster #3: Working in Pairs and Resolving Merge Conflicts
 In CAPP 30121, you will have a chance to work in pairs for some
 assignments.  This booster session will give you a chance to gain some
 practice with creating and working with a pair repository.  You will
-also get practice will resolving merge conflicts, which often arise
-when multiple people work on the same repository.
+also get practice will resolving merge conflicts, which can arise
+when two people work on the same repository.
 
 
 Part 1: Creating a Pair Repository
@@ -58,7 +58,7 @@ After their partner creates the team on GitHub classroom, Person B
 should follow the invitation link
 (`https://classroom.github.com/a/0g2TMgUJ
 <https://classroom.github.com/a/0g2TMgUJ>`__.), find their team name
-in the list, and then click join.  Once they've click join, Person B
+in the list, and then click join.  Once they've clicked join, Person B
 will land on a page similar the page shown above.
 
 
@@ -200,7 +200,7 @@ Scramble
 
 The starter code that you pulled from the upstream repository (also
 known as the distribution) includes code for a simple game in which
-the player has three attempts to unscramble a word.
+a player has three attempts to unscramble a word.
 
 The code we have given you is broken.  Once it is fixed, you will be
 able to play the game.
@@ -277,17 +277,17 @@ Pair programming is one common way for a team to work.  One person
 "drives" and the other person reviews the code as it is written, both
 people contribute ideas and help with debugging.
 
-Person B should be the driver, since they had less to do in Part 1.
-**Both partners should contribute suggestions.**
+Person B should drive for this part, since they had less to do in
+Part 1.  **Both partners should contribute suggestions.**
 
-For this part, you will be using pair programming to find a few errors
-similar to those you have seen in previous labs: syntax errors,
-indentation errors, name errors, etc.
+For this part, your goal is to work together to find a few errors that
+we added to the code.  The errors are similar to those you have seen
+in previous labs: syntax errors, indentation errors, name errors, etc.
 
 Once the code is working, Person B should create a commit and push it
 to GitHub.
 
-Both people should look at the repository on GitHub (see
+Both partners should look at the repository on GitHub (see
 ``https://github.com/uchicago-capp-camp-2025/booster-3-TEAM_NAME``,
 where ``TEAM_NAME`` is replaced by the team's name).
 
@@ -342,7 +342,7 @@ named ``CNETID_words.txt`` where ``CNETID`` is **their** CNetID.  For
 example, ``amr`` would create ``amr_words.txt`` and ``borja`` would
 create ``borja_words.txt``.
 
-Once the files are created, both partners should make a commit and to
+Once the files are created, each partner should make a commit and to
 try to push it to GitHub. One of the pushes will succeed and the other
 will fail with an error of the form:
 
@@ -361,7 +361,7 @@ will fail with an error of the form:
 
 This error tells us that the person's local repository is "behind"
 GitHub.  To fix it, the person whose push failed needs to "pull" the
-updates from GitHub into their local repository.  This time we will a
+updates from GitHub into their local repository.  This time we will use a
 variant of the pull command:
 
 ::
@@ -536,8 +536,8 @@ Once Borja resolves the conflicts, he will make a new commit and push
 his changes to GitHub and then Anne will pull them to pick up the most
 recent version.
 
-The next two tasks will give each partner a chance to induce
-and fix a conflict.
+In the final two tasks, each partner will have a chance to induce and
+fix a conflict.
 
 Merge Conflict #1
 ~~~~~~~~~~~~~~~~~
@@ -589,7 +589,7 @@ Person A should then:
 - do a pull to get Person B's changes (they can skip the push, since we know it will fail!),
 - resolve the conflict,
 - verify that the program still works,
-- make a new commit once the conflict is resolved,
+- make a new commit once the conflict is resolved, and finally,
 - push their changes to GitHub.  
 
 Once Person A is done, Person B will need to pull the most recent
