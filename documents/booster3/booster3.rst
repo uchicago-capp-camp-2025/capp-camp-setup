@@ -606,7 +606,16 @@ If you followed the instructions, both repositories should be in a
 clean state, as indicated by ``git status``.  If not, please ask for help.
 
 There is nothing to submit for this Booster Session.  Once both partners'
-repositories are clean, you are done!
+repositories are clean, you are done with the git part of the booster session.
+
+Survey
+------
+
+Before you head out, please take a few minutes to complete this short
+`survey <https://forms.gle/VqUGyszF7qG14HEF9>`__ about your experience
+in CAPP Camp.  The information you provide will help guide us as we
+work to improve CAPP Camp for next year's incoming students.
+
 
 Summary
 -------
