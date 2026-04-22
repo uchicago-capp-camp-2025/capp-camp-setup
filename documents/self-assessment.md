@@ -53,8 +53,7 @@ create the repository that you will be using for this assessment.
 To create your repository, click on the following URL
 `https://classroom.github.com/a/I6j5YwnB`__ and then authorize GitHub
 to connect your account to our GitHub classroom.  You will be asked to
-choose a team name.  Please use your GitHub username as your team
-name.
+choose a team name.  Please use your **CNetID** as your team name.
 
 Once you have accepted the assignment, you will be able to find your
 repository on GitHub at the URL
@@ -107,7 +106,7 @@ Gradescope access to your GitHub account:
 Follow the instructions to connect the two.
 
 Once you have done so, you will be able to submit.  Choose your 
-`self-evaluation-GITHUB_USERNAME` repository in the repository dropdown and `main`
+`self-evaluation-TEAM_NAME` repository in the repository dropdown and `main`
  in the branch dropdown and then click Upload.
 
 If you see the following result:
