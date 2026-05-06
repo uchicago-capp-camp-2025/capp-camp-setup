@@ -73,7 +73,7 @@ Tasks
 -----
 
 **Task 1:** Create the following directories: `animals`,
-`space/planets`, and `space/comets and then move the files related to:
+`space/planets`, and `space/comets` and then move the files related to:
 
 - animals from `files` to `animals`,
 - planets from `files` to `space/planets`, and
