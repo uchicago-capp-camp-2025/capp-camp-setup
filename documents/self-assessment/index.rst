@@ -1,4 +1,4 @@
-CAPP Camp: Git self-evaluation
+CAPP Camp: Git Self Assessment
 ==============================
 
 CAPP Camp introduces students to the Linux operating system, the Git
