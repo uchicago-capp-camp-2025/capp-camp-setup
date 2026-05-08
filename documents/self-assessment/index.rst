@@ -10,8 +10,8 @@ quarter.
 While most incoming students do not have exposure to the tools used in
 CS courses, every year there are a few students who have prior
 experience with the tool that is most challenging to learn on your
-own, namely Git.  This self-test is intended to help such students
-determine whether they should plan to attend CAPP Camp.
+own, namely Git.  This self-assessment is intended to help such
+students determine whether they should plan to attend CAPP Camp.
 
 If you have little or no prior experience with Git, please plan to
 attend CAPP Camp (or makeup CAPP Camp, if you are unable to be in
@@ -28,6 +28,9 @@ pre-loaded with a set of files.  Your task will be to make changes to
 the existing file organization, modify an existing file, create a new
 file, and record all of these changes using the appropriate Git
 commands.
+
+Please contact Anne Rogers (amr@cs.uchicago.edu) if you run into any
+problems or have any questions.
 
 Tools
 -----
@@ -60,7 +63,7 @@ You you will be using ``uv`` to manage your Python environment in CAPP
 30121 and CAPP 30122.  You can find information about how to install
 ``uv`` and how to install Python using ``uv`` at this :ref:`link <python_setup>`.
 
-If you already have Python 3.13 (or newer) installed, you can use it
+If you already have Python 3.13 (or later) installed, you can use it
 for this assessment and install ``uv`` later.
 
 
@@ -79,7 +82,7 @@ your team name.
 
 Once you have accepted the assignment, you will be able to find your
 repository on GitHub at the URL ``https://github.com/uchicago-capp-camp-2026/self-assessment-TEAM_NAME``,
-where ``TEAM_NAME`` the team name you chose.
+where ``TEAM_NAME`` is the team name you chose.
 
 The next step is to clone your repository. It will contain the
 following:
@@ -90,11 +93,11 @@ following:
 
 You can check your work at anytime by running the Python script
 ``check.py``.  If you have installed ``uv``, you can use the following
-command to run the script:
+command from the command-line to run the script:
 
 ::
 
-   $ uv run python check.py
+   uv run python check.py
 
 
 Tasks
@@ -122,12 +125,12 @@ that you have completed the self-evaluation.  One of Anne Rogers and
 James Turk will review your work and let you know if we have any
 concerns.
 
-If you were able to complete this assessment in 20-30 minutes and
+If you were able to complete this assessment in 20 minutes or so and
 without having to rely on doing web searches or using an LLM-based
 tool, then you can safely skip CAPP Camp. Please note, though, if you
 do not have prior experience with Linux or with basic debugging and
 you are available, you are welcome to come to the main CAPP Camp or
-makeup CAPP Camp to help develop those skills.
+makeup CAPP Camp on the days we cover those topics.
 
 
 
